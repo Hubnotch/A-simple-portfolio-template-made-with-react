@@ -1,0 +1,13 @@
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 0 3%;
+}
+.content__card{
+    width:calc(100% / 3);
+    padding: 1%;
+
+}
