@@ -1,8 +1,9 @@
 .content{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 40vh;
+    height: 40%;
     background: rgba(0, 0, 0, 0.25);
     padding: 0 3%;
 }
@@ -11,3 +12,8 @@
     padding: 1%;
 
 }
+@media (max-width: 800px) {
+    .content {
+      flex-direction: column;
+    }
+  }
